@@ -1,0 +1,284 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	background: -moz-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	color: #fff;
+	padding-bottom: 150px;
+	padding-top: 60px;
+	font-family: 'Open sans', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.offer {
+	width: 565px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-bottom: 45px;
+	width: 410px;
+	margin-top: 40px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffd429;
+	color: #000;
+	font-size: 15px;
+	font-weight: 900;
+	display: block;
+	width: 222px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+background-color: #ff891b;
+}
+
+.desktop {
+	margin-top: 55px;
+}
+
+.future {
+	padding-top: 95px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+.section-title {
+	font-size: : 30px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.skill {
+	width: 310px;
+	background: url(../img/icon1.jpg) no-repeat top center;
+	padding-top: 100px;
+}
+
+.skill-title {
+	font-size: 19px; 
+}
+
+.skill-text {
+	margin-top: 23px;
+
+}
+
+.skill-trip {
+	background: url(../img/icon2.jpg) no-repeat top center;
+}
+
+.skill-price {
+	background: url(../img/icon3.jpg) no-repeat top center;
+}
+
+.form {
+	text-align: center;
+	margin-top: 60px;
+
+}
+.ticket{
+	background: #ecf3f8;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.input {
+	width: 343px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 50px;
+	padding-left: 25px;
+	display: block;
+	margin: 15px auto;
+
+	
+}
+
+.btn-form {
+	border: none;
+	cursor: pointer;
+	display: inline;
+	width: 343px;
+	margin-top: 5px;
+
+
+}
+
+footer {
+	background-color: #164d7a;
+	padding: 33px 0;
+	text-align: center;
+}
+
+.credits {
+	color: #fff;
+	font-style: 14px;
+	margin: 0;
+}
+
+
+/*Responsive
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: auto;
+		text-align: center;
+	}
+	.intro {
+		width: 100%;
+		font-size: 2em;
+	}
+	.btn {
+		margin: 0 auto;
+		width: 70%;
+		padding: 30px;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.logo {
+		margin-left: 45%;
+	}
+	.skills {
+		flex-direction: column;
+		align-items: center;
+	}
+	.skill {
+		width: auto;
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	.input {
+		width: 70%;
+		height: 100px;
+		font-size: 30px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.input {
+		font-size: 25px;
+	}
+	.desktop {
+		display: block;
+		width: 90%
+		height: auto;
+		margin: 55px 0 0;
+		align-items: center;
+	}
+	h1 {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	header {
+		width: auto;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 540px;
+		height: 540px;
+	}
+	.input {
+		font-size: 18px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.desktop {
+		width: 300px;
+		height: 300px;
+	}
+	.logo {
+		margin-left: 100px;
+	}
+	.btn {
+		font-size: 15px;
+		width: 90%;
+		height: 60px;
+		padding-bottom: 50px;
+	}
+	.input {
+		width: 90%;
+		font-size: 12px;
+		height: 60px;
+	}
+}
